@@ -1,16 +1,21 @@
 import React from "react";
 import "./App.css";
-
-import IntroHeader from "./sections/Header";
-import Name from "./sections/Name";
-import Info from "./sections/Info";
+import TopBar from "./sections/TopBar";
+import BackGround from "./sections/BackGround";
+import NameSection from "./sections/NameSection";
+import IntroSection from "./sections/IntroSection";
+import TechSection from "./sections/TechSection";
+import DevSection from "./sections/DevSection";
 
 const App: React.FC = () => {
     return (
         <div className="App">
-            <IntroHeader></IntroHeader>
-            <Name></Name>
-            <Info></Info>
+            <TopBar />
+            <BackGround />
+            <NameSection />
+            <IntroSection />
+            <TechSection />
+            <DevSection />
         </div>
     );
 };

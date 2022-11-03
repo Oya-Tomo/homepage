@@ -1,0 +1,103 @@
+.BackGround {
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.BackGround .CircleContainer {
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation: graduation 10s infinite;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.BackGround .Circle {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    background-color: #cacaca;
+    animation: jelly 10s infinite;
+}
+
+@keyframes jelly {
+    0% {
+        border-radius: 48% 50% 48% 48%;
+    }
+    10% {
+        border-radius: 48% 53% 48% 50%;
+    }
+    20% {
+        border-radius: 51% 47% 48% 50%;
+    }
+    30% {
+        border-radius: 49% 50% 48% 50%;
+    }
+    40% {
+        border-radius: 53% 47% 52% 49%;
+    }
+    50% {
+        border-radius: 50% 47% 48% 53%;
+    }
+    60% {
+        border-radius: 48% 55% 47% 50%;
+    }
+    70% {
+        border-radius: 47% 52% 48% 50%;
+    }
+    80% {
+        border-radius: 50% 49% 47% 52%;
+    }
+    90% {
+        border-radius: 53% 48% 52% 47%;
+    }
+    100% {
+        border-radius: 48% 50% 48% 48%;
+    }
+}
+
+@keyframes graduation {
+    0% {
+        background-color: #dd0000;
+    }
+    10% {
+        background-color: #ff6200;
+    }
+    20% {
+        background-color: #ffe600;
+    }
+    30% {
+        background-color: #3cff00;
+    }
+    40% {
+        background-color: #00d793;
+    }
+    50% {
+        background-color: #15e9bf;
+    }
+    60% {
+        background-color: #0061df;
+    }
+    70% {
+        background-color: #ae23ff;
+    }
+    80% {
+        background-color: #ff1997;
+    }
+    90% {
+        background-color: #e66465;
+    }
+    100% {
+        background-color: #dd0000;
+    }
+}

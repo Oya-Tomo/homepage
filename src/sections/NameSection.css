@@ -1,0 +1,20 @@
+.NameSection {
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: auto;
+}
+
+.NameSection .MyName {
+    margin: auto;
+    padding: 0px;
+    font-size: 4em;
+    z-index: 100;
+    color: white;
+    text-shadow: 2vw 2vw #1e1e1e;
+    max-width: 100%;
+}
