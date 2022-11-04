@@ -6,6 +6,7 @@ import NameSection from "./sections/NameSection";
 import IntroSection from "./sections/IntroSection";
 import TechSection from "./sections/TechSection";
 import DevSection from "./sections/DevSection";
+import ContactSection from "./sections/ContactSection";
 
 const App: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <IntroSection />
             <TechSection />
             <DevSection />
+            <ContactSection />
         </div>
     );
 };
