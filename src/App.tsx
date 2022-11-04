@@ -1,17 +1,18 @@
 import React from "react";
 import "./App.css";
-import TopBar from "./sections/TopBar";
+// import TopBar from "./sections/TopBar";
 import BackGround from "./sections/BackGround";
 import NameSection from "./sections/NameSection";
 import IntroSection from "./sections/IntroSection";
 import TechSection from "./sections/TechSection";
 import DevSection from "./sections/DevSection";
 import ContactSection from "./sections/ContactSection";
+import "./FontSize.css";
 
 const App: React.FC = () => {
     return (
         <div className="App">
-            <TopBar />
+            {/* <TopBar /> */}
             <BackGround />
             <NameSection />
             <IntroSection />

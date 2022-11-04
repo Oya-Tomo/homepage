@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 480px) {
+    .SectionTitleSize {
+        font-size: 3rem;
+    }
+    .SectionSubTitleSize {
+        font-size: 2.5rem;
+    }
+    .SectionTextSize {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .SectionTitleSize {
+        font-size: 3.5rem;
+    }
+    .SectionSubTitleSize {
+        font-size: 2.5rem;
+    }
+    .SectionTextSize {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+    .SectionTitleSize {
+        font-size: 4.5rem;
+    }
+    .SectionSubTitleSize {
+        font-size: 3.5rem;
+    }
+    .SectionTextSize {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .SectionTitleSize {
+        font-size: 5rem;
+    }
+    .SectionSubTitleSize {
+        font-size: 4rem;
+    }
+    .SectionTextSize {
+        font-size: 2.5rem;
+    }
+}

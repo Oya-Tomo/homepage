@@ -3,7 +3,7 @@
     /* min-height: 100vh; */
     z-index: 1;
     margin: 3vh 0px;
-    padding: 0px 5vw;
+    padding: 0px 10vw;
     box-sizing: border-box;
     text-shadow: 0.3vw 0.3vw #1e1e1e;
     color: white;
@@ -11,20 +11,14 @@
     flex-direction: column;
 }
 
-.DevSection .DevTitle {
-    font-size: 1em;
-}
-
 .DevSection .DevItem {
     width: 100%;
 }
 
 .DevSection .DevItem h2 {
-    font-size: 0.7em;
     text-align: center;
 }
 
 .DevSection .DevItem p {
-    font-size: 0.4em;
     margin: 10px 10%;
 }

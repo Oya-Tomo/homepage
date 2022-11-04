@@ -12,9 +12,29 @@
 .NameSection .MyName {
     margin: auto;
     padding: 0px;
-    font-size: 4em;
     z-index: 100;
     color: white;
     text-shadow: 2vw 2vw #1e1e1e;
     max-width: 100%;
+}
+
+@media screen and (min-width: 1080px) {
+    .NameSection .MyName {
+        font-size: 150px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+    .NameSection .MyName {
+        font-size: 130px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .NameSection .MyName {
+        font-size: 105px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .NameSection .MyName {
+        font-size: 80px;
+    }
 }

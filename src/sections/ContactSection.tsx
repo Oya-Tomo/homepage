@@ -6,8 +6,8 @@ import { BsGithub, BsTwitter } from "react-icons/bs";
 const ContactSection: React.FC = () => {
     return (
         <section className="ContactSection">
-            <h1 className="ContactTitle">Contacts</h1>
-            <div className="ContactList">
+            <h1 className="ContactTitle SectionTitleSize">Contacts</h1>
+            <div className="ContactList SectionTitleSize">
                 {/* <a href="https://github.com/Oya-Tomo"></a>
                 <a href="https://twitter.com/OyaTomo_dev"></a> */}
                 <a

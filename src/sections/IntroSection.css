@@ -3,16 +3,16 @@
     /* min-height: 100vh; */
     z-index: 1;
     margin: 3vh 0px;
-    padding: 0px 5vw;
+    padding: 0px 10vw;
     box-sizing: border-box;
     text-shadow: 0.3vw 0.3vw #1e1e1e;
     color: white;
 }
 
 .IntroSection .IntroTitle {
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 
 .IntroSection .IntroList {
-    font-size: 0.6em;
+    /* font-size: 0.6em; */
 }
