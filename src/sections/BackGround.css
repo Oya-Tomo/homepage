@@ -11,8 +11,8 @@
 }
 
 .BackGround .CircleContainer {
-    width: 30vw;
-    height: 30vw;
+    width: clamp(18.75rem, 10.642rem + 40.54vw, 56.25rem);
+    height: clamp(18.75rem, 10.642rem + 40.54vw, 56.25rem);
     margin: auto;
     box-sizing: border-box;
     border-radius: 50%;

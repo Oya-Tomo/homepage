@@ -16,25 +16,5 @@
     color: white;
     text-shadow: 2vw 2vw #1e1e1e;
     max-width: 100%;
-}
-
-@media screen and (min-width: 1080px) {
-    .NameSection .MyName {
-        font-size: 150px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1080px) {
-    .NameSection .MyName {
-        font-size: 130px;
-    }
-}
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .NameSection .MyName {
-        font-size: 95px;
-    }
-}
-@media screen and (max-width: 480px) {
-    .NameSection .MyName {
-        font-size: 80px;
-    }
+    font-size: clamp(5rem, 1.842rem + 15.79vw, 12.5rem);
 }
